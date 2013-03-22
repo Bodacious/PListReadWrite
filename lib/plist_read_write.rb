@@ -1,3 +1,4 @@
+#test
 unless defined?(Motion::Project::Config)
   raise "The plist_read_write gem must be required within a RubyMotion project Rakefile."
 end
