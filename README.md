@@ -63,3 +63,7 @@ PListRW.updatePlistFileWithObject(:users, @users_hash)
 # Check this worked OK
 PListRW.plistObject(:users, Hash)[:jim][:name] # => "James"
 ```
+
+## About Katana Code
+
+Katana Code are [iPhone app and Ruby on Rails Developers in Edinburgh, Scotland](http://katanacode.com/ "Katana Code").
