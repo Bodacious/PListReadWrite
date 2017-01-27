@@ -1,0 +1,98 @@
+<!doctype html><html><head><meta charset="utf-8"><meta content="no-cache" http-equiv="Cache-Control"/><meta content="width=device-width, initial-scale=1; minimum-scale=1, maximum-scale=2.0" name="viewport"/><title>Happy Chick Emulator iOS version download |Happy Chick Emulator</title><meta content="Happy Chick Emulator" name="keywords"/><meta content="Happy Chick Emulator、GBA、GBC、MD、SFC(SNES)、FC(NES)、NDS、PSP" name="description"/><link href="/static/dv1/common.css" rel="stylesheet" type="text/css"/><link rel="stylesheet" href="/css/main_v2.css?1"><style type="text/css">.stop-service{padding:200px 20px 0px 20px;text-align:center;background:url(/images/close.png) no-repeat center center;font-size:14px;}.stop-service span{color:red;}.layer_fix{width:100%;height:100%;position:fixed;z-index:100;}.layer_fix .wrap{background:url("http://www.xiaoji001.com/mpad/images/bg_blank_black.png");top:0px;width:100%;height:100%;right:0px;position:absolute;}.layer_fix .box{position:relative;}.layer_fix .box .l{left:10px;top:10px;position:absolute;z-index:2;}.layer_fix .box .r{top:0px;right:0px;position:absolute;z-index:1;max-width:410px;}.layer_fix .box .r img{width:100%;max-width:410px;}.ios{width:70%;}</style></head><body> <script type="text/javascript">function is_weixn(){
+    var ua = navigator.userAgent.toLowerCase();
+    if(ua.match(/MicroMessenger/i)=="micromessenger") {
+        return true;
+    } else {
+        return false;
+    }
+}
+function layer_fix_close(){
+	document.getElementById("layer_fix").style.display = "none";
+}
+function isIOS9(){
+	var agent = navigator.userAgent.toLowerCase() ;
+	var version, verinfo;
+	if(agent.indexOf("like mac os x") > 0){
+		var reg = /os ([0-9]+)_([0-9]+)/i;
+		verinfo = agent.match(reg) ;
+		if(verinfo!=undefined && verinfo[1]!=undefined && verinfo[2]!=undefined){
+			version = parseFloat(verinfo[1]+"."+verinfo[2]);
+			if(version>=9){
+				return true;
+			}
+		}
+	}
+	return false;
+}
+function ios9_show_p(){
+    if(isIOS9())    {
+        document.getElementById("ios9_trust").style.display = 'block';
+        document.getElementById("active_application").innerHTML = 'Step 3: Automatically activated and open';
+        //document.getElementById('ios9msg').style.display = 'inline-block';
+        //$("#ios9br1, #ios9br2").show();
+    }
+}
+
+function ios_main_href(){
+	location.href = "itms-services:///?action=download-manifest&url=https://ssl.xiaoji001.com/i/grkkikSK8Wc6CMlG.plist";
+}
+function ios_backup_href(){
+	location.href = "itms-services:///?action=download-manifest&url=https://ssl2.xiaoji001.com/i/grkkikSK8Wc6CMlG.plist";
+	//location.href = "itms-services:///?action=download-manifest&url=https://raw.githubusercontent.com/raypo/forforkTest/master/xiaoji_handle_en.plist";
+}
+</script><div class="layer_fix" id="layer_fix"><div class="wrap"><div class="box"><div class="r"><img src="http://www.xiaoji001.com/mpad/images/pic_tips_browser_en.png"></div><div class="l"><span class="ico_layer_close" title="I know, shut down" onclick="javascript:layer_fix_close();"></span></div></div></div></div><script type="text/javascript">	if(!is_weixn()){
+		layer_fix_close();
+	}
+</script> <div class="row-fluid"><div class="container"><h1 class="pull-left">Happy Chick Emulator</h1></div><div class="container content"><div class="view row"><div style="text-align:center;"><a href="http://www.xiaoji001.com/"><img class="logo" src="/static/dv1/logo.png"/></a></div></div><div class="view row"><div style="text-align:center;"> <a class="ios" href="javascript:ios_main_href();"><i>Step 1: Download for iOS</i></a><br/><p style="padding-top:10px; display:inline-block; border-bottom:1px solid #666;"><a href="javascript:ios_backup_href();"style="color: #666" >Download link 2</a></p></div><div  id="ios9_trust"  style="text-align:center;padding-top: 15px;display:none; "><!--<div style="font-size: 16px;color:#fd0018;margin-bottom: 5px;">第二步</div>--><a class="ios" href="http://www.xiaoji001.com/m/en/ios9_guide.html"><i>Step 2: Click to trust Happy Chick (iOS9)</i></a></div><div  style="text-align:center;padding-top: 15px;"><!--<div id="active_application" style="font-size: 16px;color:#fd0018;margin-bottom: 5px;">第二步</div>--><a class="ios" href="com.lancheng.newapp://?http://www.xiaoji001.com/i/grkkikSK8Wc6CMlG"><i id="active_application">Step 2: Auto-activate it and open</i></a><br/><p style="padding-top:15px; display:inline-block; "><p style="color: #666">Activation Code：grkkikSK8Wc6CMlG (Long press to copy)</p></p></div></div><div style="text-align:center; margin-top:20px;"><div style="width:80%; padding:10px; margin:0 auto; font-size:80%; border:1px dotted #FF0004; background-color:#F9F5CC;"><p>Attention: This QR code is available for download on up to <strong style="color:red;">TWO iOS machines only</strong>, please DO NOT spread to others for download, otherwise the QR code will not work.</p><br><span class="label label-info">Download times :  9</span><div style="margin-top:10px; text-align:left;"><p><strong>Binding Equipment: </strong><strong style="color:red;">2</strong>/<strong style="color:green;">2</strong> (Available:0)</p><p style="color:blue;font-weight:bold;">Download times :9</p></div></div></div><div style="text-align:center; margin-top:20px;"><a class="ios" style="background-color:#98C13D" href="http://www.xiaoji001.com/download/xiaoji.apk"><i>Download for Android</i></a></div></div><hr class="devider devider-dotted"><div id="" class="view row"><div class="span12" style="text-align:center;">Or scan the QR code below for direct installation<br /><img class="qrcode" src="/static/code/grkkikSK8Wc6CMlG.png" /></div></div></div><div style="display:none"><script src="http://s20.cnzz.com/stat.php?id=5217352&web_id=5217352&show=pic1" language="JavaScript"></script></div><div class="gs-hidden install-board" id="install-step-download"><div class="corp download"><p>loading...</p><div class="process"><div class="bar" style="width:0%;"></div></div></div></div><div id="shadow" class="shadow" style="opacity: 1; display: none;"></div><div id="message" class="message" style="opacity: 1; display: none;"><div class="close" onclick="close_msg()"><img src="/images/close.png"></div><div id="message9" class="message9" ><div class="msg_txt"><div class="ui-header-slideWrap" id="scrollImg" style="overflow: hidden;"><div class="ui-header-indexSlide" id="scroller" style="width: 1575px; transform-origin: 0px 0px 0px; position: absolute; top: 0px; left: -1260px;"><ul id="scrollcon"><li class="sImgItem" style="width:315px;"></li></ul></div><div id="change_img_nav"><ul id="change_img_nav_ul"></ul></div></div></div><p class="xin-btn"><a href="javascript:xinren()">Click to trust Happy Chick directly</a></p></div></div></div><script>    window.onload = function(){
+        ios9_show_p();
+    }
+
+    function install_start(){
+        $("#install-step-download, #shadow").show();
+        setTimeout(function(){
+            var loop = 0;
+            var maxloop = 20;
+            var process = setInterval(function(){
+                if(loop >= maxloop){
+                    clearInterval(process);
+                    $('#message, #message9').show();
+                    $("#install-step-download").hide();
+                    return ;
+                }
+                loop++;
+                var percent = parseFloat((loop / maxloop)*100);
+                $("#install-step-download > .download >.process >.bar").css("width", percent+'%');
+            },50);
+        },50);
+    }
+
+    function close_msg(){
+        $('#message, #message8, #message9, #shadow').hide();
+    }
+    function xinren() {
+        var url = "prefs:root=General&path=ManagedConfigurationList";
+
+        doLocation(url);
+    }
+
+    function doLocation(url) {
+        var uaa = navigator.userAgent.toLowerCase();
+        if (uaa.indexOf('micromessenger') > 0) {
+            $("#zhezhao").show();
+            $("#zhezhao").click(function() {
+                $("#zhezhao").hide();
+            })
+        }
+        var a = document.createElement("a");
+
+        if (!a.click) {
+            window.location = url;
+            return;
+        }
+        a.setAttribute("href", url);
+        a.style.display = "none";
+        document.body.appendChild(a);
+        a.click();
+    }
+
+</script></body></html>
